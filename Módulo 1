@@ -1,0 +1,33 @@
+# Resumo do Módulo 1 – Conceitos Fundamentais de Nuvem e Azure
+
+Neste módulo, aprendi os principais conceitos e benefícios da computação em nuvem, com foco na plataforma Microsoft Azure:
+
+- **Alta Disponibilidade:**  
+  Garantia de que os serviços estejam disponíveis o máximo possível, com diferentes níveis de SLA (de 99% a 99,999%) que definem o tempo máximo permitido de indisponibilidade. A Microsoft oferece créditos caso o SLA não seja cumprido.
+
+- **Recursos Sempre Disponíveis:**  
+  Os recursos na nuvem estão prontos para uso a qualquer momento, garantindo escalabilidade e flexibilidade conforme a demanda.
+
+- **Estado do Serviço:**  
+  Entendi os três estados principais — disponível, degradado (com desempenho reduzido) e indisponível.
+
+- **Escalabilidade:**  
+  Capacidade de ajustar recursos para atender à demanda, seja aumentando a capacidade de um recurso (vertical) ou adicionando mais instâncias (horizontal).
+
+- **Elasticidade:**  
+  Habilidade de expandir ou reduzir recursos automaticamente ou manualmente, especialmente útil em picos de demanda, como na Black Friday.
+
+- **Confiabilidade:**  
+  Infraestrutura descentralizada e resiliente, com recursos distribuídos globalmente para garantir continuidade mesmo diante de falhas regionais.
+
+- **Previsibilidade e Confiança:**  
+  Uso do Azure Well-Architected Framework para garantir desempenho e controle de custos previsíveis.
+
+- **Segurança:**  
+  Ferramentas robustas de segurança, com responsabilidade compartilhada entre provedor e cliente. Plataformas como Serviço (PaaS) e Software como Serviço (SaaS) facilitam a manutenção automática.
+
+- **Governança:**  
+  Gestão e controle dos recursos, com auditorias para garantir conformidade e aplicação automática de patches e atualizações.
+
+- **Gerenciabilidade:**  
+  Facilidade para gerenciar recursos via APIs, PowerShell, Azure CLI ou portal, incluindo escalonamento automático e implantação baseada em modelos pré-configurados.
