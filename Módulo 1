@@ -21,3 +21,17 @@ Governança: Gestão e controle dos recursos, com auditorias para garantir confo
 
 Gerenciabilidade: Facilidade para gerenciar recursos via APIs, PowerShell, Azure CLI ou portal, incluindo escalonamento automático e implantação baseada em modelos pré-configurados.
 
+Tipos de Serviços de Nuvem e Modelo de Responsabilidade Compartilhada
+Tipos de Serviços de Nuvem:
+
+IaaS (Infrastructure as a Service):
+Infraestrutura configurável e gerenciável pelo cliente (servidores, rede, armazenamento). Ex: máquinas virtuais.
+
+PaaS (Platform as a Service):
+Plataforma completa para desenvolvimento e implantação de aplicativos, sem gerenciar infraestrutura. Provedor gerencia sistema operacional e plataforma.
+
+SaaS (Software as a Service):
+Aplicativos hospedados na nuvem, acessados via internet, com modelo de assinatura. Ex: Microsoft Office 365.
+
+Resumo:
+IaaS oferece maior controle e flexibilidade; PaaS foca no desenvolvimento; SaaS entrega software pronto para uso.
