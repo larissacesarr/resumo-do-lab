@@ -1,0 +1,59 @@
+📘 Resumo do Módulo 2 – Arquitetura, Serviços, Computação e Rede no Azure
+1. Arquitetura do Azure
+Regiões:
+Azure possui mais de 60 regiões globais em 140+ países, oferecendo flexibilidade, escala e baixa latência.
+Cada região tem 3 datacenters próximos chamados Zonas de Disponibilidade para alta resiliência.
+Para recuperação de desastres, dados podem ser replicados em regiões pares.
+Considerações legais como LGPD garantem que dados sensíveis fiquem dentro da região.
+
+Zonas de Disponibilidade:
+Datacenters fisicamente separados com infraestrutura independente para evitar falhas simultâneas.
+
+Pares de Regiões:
+Regiões emparelhadas para replicação automática e recuperação prioritária em desastres.
+
+Regiões Soberanas:
+Regiões especiais para clientes com requisitos rigorosos de segurança, como Azure Governamental (EUA) e Azure China.
+
+2. Recursos e Organização no Azure
+Recursos: componentes como máquinas virtuais, armazenamento e redes para construir soluções na nuvem.
+
+Grupos de Recursos: containers lógicos para agrupar e gerenciar recursos, podendo conter recursos de várias regiões.
+
+Assinaturas: unidades administrativas e financeiras, onde uma conta pode ter várias assinaturas, cada uma com cobrança e controle de acesso próprios.
+
+Grupos de Gerenciamento: organizam várias assinaturas, aplicando políticas e permissões herdadas.
+
+3. Computação no Azure
+Máquinas Virtuais (VMs):
+IaaS que emula computadores físicos, com controle total sobre CPU, memória e armazenamento.
+Ideal para migração de sistemas legados (lift-and-shift).
+
+Conjuntos de Dimensionamento:
+Permitem balanceamento de carga e escalonamento automático de VMs conforme demanda.
+
+Conjuntos de Disponibilidade:
+Isolam falhas físicas (domínio de falha) e atualizações (domínio de atualização) para maior disponibilidade.
+
+Área de Trabalho Virtual:
+Virtualização de desktops e aplicativos na nuvem, com suporte a múltiplas sessões e VMs exclusivas.
+
+Serviços de Contêiner:
+Ambientes leves para microsserviços, sem necessidade de gerenciar SO, com opções como Instâncias de Contêiner, Aplicativos de Contêiner e AKS (orquestração Kubernetes).
+
+Azure Functions:
+Computação serverless baseada em eventos, executando código sob demanda sem infraestrutura ativa contínua.
+
+4. Serviços de Rede do Azure
+Azure Virtual Network (VNet):
+Comunicação segura entre recursos Azure, internet e redes locais.
+Suporta pontos de extremidade públicos e privados, sub-redes e emparelhamento de redes.
+
+Gateway de VPN:
+Túnel criptografado entre redes virtuais Azure e redes locais via internet pública.
+
+ExpressRoute:
+Conexão privada direta entre redes locais e Azure, sem passar pela internet pública.
+
+DNS do Azure:
+Serviço global de resolução de nomes com alta confiabilidade, suporte a domínios privados e personalizados.
