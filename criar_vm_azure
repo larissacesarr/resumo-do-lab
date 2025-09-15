@@ -1,11 +1,15 @@
 🚀 Passo a Passo para Criar uma Máquina Virtual (VM) no Azure
+
 1. Acesse o Portal do Azure
 Entre no site: https://portal.azure.com
 Faça login com sua conta Microsoft.
+
 2. Navegue até "Máquinas Virtuais"
 No menu lateral esquerdo, clique em "Máquinas Virtuais" (ou pesquise na barra superior por "Máquinas Virtuais").
+
 3. Clique em "Criar" > "Máquina Virtual"
 Clique no botão "+ Criar" e selecione "Máquina Virtual" para iniciar o assistente de criação.
+
 4. Configurar a VM - Aba "Básicos"
 Assinatura: selecione sua assinatura do Azure.
 Grupo de Recursos: escolha um grupo existente ou crie um novo para organizar seus recursos.
@@ -15,21 +19,27 @@ Imagem: selecione o sistema operacional (ex: Windows Server, Ubuntu, etc).
 Tamanho: escolha o tamanho da VM (CPU, memória) conforme sua necessidade e orçamento.
 Autenticação: configure o método de login (senha ou chave SSH).
 Portas de Entrada: selecione as portas que deseja abrir (ex: porta 22 para SSH, 3389 para RDP).
+
 5. Configurar a VM - Aba "Discos"
 Escolha o tipo de disco para o sistema operacional (HDD, SSD padrão ou SSD premium).
 Adicione discos de dados adicionais se necessário.
+
 6. Configurar a VM - Aba "Rede"
 Configure a rede virtual (VNet) e sub-rede onde a VM ficará.
 Configure o IP público (se desejar acesso externo).
 Configure grupos de segurança de rede (firewall) para controlar o tráfego.
+
 7. Configurar as abas adicionais (Gerenciamento, Segurança, Tags)
 Ajuste configurações de monitoramento, backup, políticas de segurança e tags para organização, conforme necessário.
+
 8. Revisar e Criar
 Revise todas as configurações.
 Clique em "Criar" para iniciar a implantação da VM.
+
 9. Acompanhe a implantação
 Aguarde a criação da VM (pode levar alguns minutos).
 Após a implantação, você poderá acessar a VM via SSH (Linux) ou RDP (Windows) usando o IP público e as credenciais configuradas.
+
 💡 Dicas Extras
 Use grupos de recursos para organizar seus recursos no Azure.
 Escolha a região mais próxima para melhor desempenho.
