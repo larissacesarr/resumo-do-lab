@@ -57,3 +57,40 @@ Conexão privada direta entre redes locais e Azure, sem passar pela internet pú
 
 DNS do Azure:
 Serviço global de resolução de nomes com alta confiabilidade, suporte a domínios privados e personalizados.
+
+Resumo: Arquitetura e Serviços de Armazenamento do Azure
+Contas de Armazenamento:
+São recursos com nome globalmente exclusivo que funcionam como caixas para armazenar diferentes tipos de dados, acessíveis via internet mundialmente.
+
+Configurações de Redundância:
+Garantem alta disponibilidade e durabilidade dos dados com diferentes níveis:
+
+LRS: replicação local (11 noves)
+ZRS: replicação em zonas (12 noves)
+GRS: replicação geográfica (16 noves)
+GZRS: replicação geográfica e por zonas (16 noves)
+Modelos de Dados Suportados:
+
+Blob: dados não estruturados, arquivos diversos (mais usado)
+Disco: discos para VMs e apps
+Fila: mensagens para comunicação assíncrona
+Arquivos: compartilhamento via protocolo SMB, para mapeamento de unidades de rede
+Tabelas: dados NoSQL simples, sem esquema rígido
+Pontos de Extremidade Públicos:
+URLs no formato <nome-da-storage-account>.<serviço>.core.windows.net para acesso aos serviços.
+
+Camadas de Acesso (Storage Tiers):
+Otimizam custo e desempenho conforme frequência de acesso:
+
+Frequente: dados usados constantemente
+Esporádico: dados usados ocasionalmente (mín. 30 dias)
+Frio: dados raramente acessados (mín. 90 dias)
+Arquivo Morto: dados muito raros, com latência flexível (mín. 180 dias)
+Migrações para o Azure:
+Ferramentas e serviços para facilitar a transferência de dados:
+
+Azure Data Box: migração física de grandes volumes (até 80 TB) com segurança
+AzCopy: ferramenta de linha de comando para copiar dados rapidamente
+Gerenciador de Armazenamento: interface gráfica para gerenciar arquivos, usando AzCopy internamente
+Sincronização de Arquivos: sincroniza arquivos localmente e na nuvem, mantendo arquivos frequentes localmente para economizar espaço
+
