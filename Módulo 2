@@ -94,3 +94,16 @@ AzCopy: ferramenta de linha de comando para copiar dados rapidamente
 Gerenciador de Armazenamento: interface gráfica para gerenciar arquivos, usando AzCopy internamente
 Sincronização de Arquivos: sincroniza arquivos localmente e na nuvem, mantendo arquivos frequentes localmente para economizar espaço
 
+Microsoft Entra ID é o serviço de gerenciamento de identidades e acesso na nuvem Azure, oferecendo autenticação, SSO, gerenciamento de aplicativos, B2B e controle de dispositivos.
+
+Autenticação Multifator (MFA) aumenta a segurança exigindo dois ou mais fatores: algo que você sabe, possui ou é.
+
+B2B permite que usuários externos acessem recursos usando contas em diretórios diferentes, enquanto B2C gerencia identidades de clientes finais.
+
+Acesso Condicional controla o acesso a recursos com base em sinais como dispositivo, aplicativo e localização.
+
+RBAC oferece controle granular, concedendo aos usuários apenas as permissões necessárias para suas funções.
+
+O modelo Confiança Zero assume que a rede já está comprometida, exigindo validação contínua.
+
+Microsoft Defender for Cloud monitora e protege ambientes Azure e locais, detecta ameaças, oferece recomendações e controla acessos just-in-time.
