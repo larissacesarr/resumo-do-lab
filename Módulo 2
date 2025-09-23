@@ -1,5 +1,5 @@
 📘 Resumo do Módulo 2 – Arquitetura, Serviços, Computação e Rede no Azure
-1. Arquitetura do Azure
+Arquitetura do Azure
 Regiões:
 Azure possui mais de 60 regiões globais em 140+ países, oferecendo flexibilidade, escala e baixa latência.
 Cada região tem 3 datacenters próximos chamados Zonas de Disponibilidade para alta resiliência.
@@ -15,7 +15,7 @@ Regiões emparelhadas para replicação automática e recuperação prioritária
 Regiões Soberanas:
 Regiões especiais para clientes com requisitos rigorosos de segurança, como Azure Governamental (EUA) e Azure China.
 
-2. Recursos e Organização no Azure
+Recursos e Organização no Azure
 Recursos: componentes como máquinas virtuais, armazenamento e redes para construir soluções na nuvem.
 
 Grupos de Recursos: containers lógicos para agrupar e gerenciar recursos, podendo conter recursos de várias regiões.
@@ -24,7 +24,7 @@ Assinaturas: unidades administrativas e financeiras, onde uma conta pode ter vá
 
 Grupos de Gerenciamento: organizam várias assinaturas, aplicando políticas e permissões herdadas.
 
-3. Computação no Azure
+Computação no Azure
 Máquinas Virtuais (VMs):
 IaaS que emula computadores físicos, com controle total sobre CPU, memória e armazenamento.
 Ideal para migração de sistemas legados (lift-and-shift).
@@ -44,7 +44,7 @@ Ambientes leves para microsserviços, sem necessidade de gerenciar SO, com opç�
 Azure Functions:
 Computação serverless baseada em eventos, executando código sob demanda sem infraestrutura ativa contínua.
 
-4. Serviços de Rede do Azure
+Serviços de Rede do Azure
 Azure Virtual Network (VNet):
 Comunicação segura entre recursos Azure, internet e redes locais.
 Suporta pontos de extremidade públicos e privados, sub-redes e emparelhamento de redes.
@@ -107,3 +107,16 @@ RBAC oferece controle granular, concedendo aos usuários apenas as permissões n
 O modelo Confiança Zero assume que a rede já está comprometida, exigindo validação contínua.
 
 Microsoft Defender for Cloud monitora e protege ambientes Azure e locais, detecta ameaças, oferece recomendações e controla acessos just-in-time.
+
+Governança e Conformidade no Azure
+Azure Policy:
+Impõe padrões organizacionais para conformidade regulatória, segurança e custo em escala. Avalia recursos (non-compliant → remediation → compliant) e gerencia a organização inteira, não por usuário.
+
+Bloqueios de Recursos:
+Protegem contra exclusão ou modificação acidental/intencional, aplicados em assinaturas, grupos ou recursos individuais (herdáveis). Tipos: CanNotDelete (permite ler/atualizar, bloqueia exclusão) e ReadOnly (apenas leitura).
+
+Portal de Confiança do Serviço:
+Revela estratégias e regras de conformidade da Microsoft (ex.: GDPR, ISO), útil para auditorias e consultorias.
+
+Microsoft Purview:
+Gerencia governança, risco e conformidade de dados com visão unificada em ambientes locais, multinuvem e SaaS, facilitando descoberta e proteção de dados sensíveis.
